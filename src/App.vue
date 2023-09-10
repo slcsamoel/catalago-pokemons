@@ -3,7 +3,7 @@
   <div class="container-fluid">
     <router-link class="navbar-brand" to="/">
       <img src="./assets/icon.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-      PokeVue
+      Pokemons Cards
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -11,10 +11,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <router-link class="nav-link" to="/">Home</router-link>
+          <router-link class="nav-link" to="/">Pokemons</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/about">About</router-link>
+          <router-link class="nav-link" to="/about">Sobre</router-link>
         </li>
       </ul>
     </div>
