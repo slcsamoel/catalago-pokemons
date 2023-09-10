@@ -94,6 +94,13 @@
 
   }
 
+  @media (max-width: 768px) {
+    .cardList {
+      
+        max-height: 60vh;
+      
+      }
+  }
  
 
 </style>

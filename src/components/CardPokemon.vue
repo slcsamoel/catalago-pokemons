@@ -11,7 +11,6 @@ const pokemon = defineProps(['name','xp' , 'height' , 'img' , 'loading'])
             <img
                v-if="pokemon.name"  
                :src="pokemon.img" 
-               height="250"
                class="card-img-top pt-2"
                :alt="pokemon.name"
              >
@@ -19,7 +18,6 @@ const pokemon = defineProps(['name','xp' , 'height' , 'img' , 'loading'])
              <img 
                v-else 
                src="../assets/egg_pokemon.svg" 
-               height="250"
                class="card-img-top pt-2"
                :alt="pokemon.name"
              >
@@ -50,6 +48,20 @@ const pokemon = defineProps(['name','xp' , 'height' , 'img' , 'loading'])
         background: rgb(12, 77, 199);
         background: linear-gradient(0deg, rgb(82, 127, 248) 12%, rgb(216, 238, 24) 85%);
 
+ }
+ .cardPokemonSelected img {
+    height: 250px;
+ }
+
+ @media (max-width: 768px) {
+    .cardPokemonSelected{
+          height: 40vh;
+          margin: 0 auto 10px auto;
+      }
+
+    .cardPokemonSelected img{
+        height: 150px;
+    }
  }
 
 
