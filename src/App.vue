@@ -1,5 +1,5 @@
 <template>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
   <div class="container-fluid">
     <router-link class="navbar-brand" to="/">
       <img src="./assets/icon.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
@@ -28,7 +28,7 @@
 
 
 
-  <footer class="bg-primary text-light">
+  <footer class="text-light" style="background-color: black;">
       <div>{{ new Date().getFullYear() }}</div>
   </footer>
 
